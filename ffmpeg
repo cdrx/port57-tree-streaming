@@ -1,0 +1,1 @@
+while true; do ffmpeg -f avfoundation -s 1280x720 -framerate 30.000030 -i 1 -f mpeg1video -b 800k -r 30 -s 1280x720 -vf crop=530:720:500:0 http://stream.port57tree.com:1200/douglas57/1280/720/; sleep 0.2; done

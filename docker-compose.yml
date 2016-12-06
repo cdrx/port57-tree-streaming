@@ -1,0 +1,7 @@
+relay:
+  image: cdrx/port57-tree:video-relay
+  ports:
+   - "90:80"
+   - "1200:1200"
+web:
+  image: cdrx/port57-tree:web

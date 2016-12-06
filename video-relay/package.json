@@ -1,0 +1,16 @@
+{
+  "name": "jsmpeg",
+  "version": "1.0.0",
+  "description": "web streaming tool",
+  "main": "stream-server.js",
+  "dependencies": {
+    "ws": "^0.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node stream-server.js",
+    "start": "node stream-server.js douglas57 1200 80"
+  },
+  "author": "",
+  "license": "ISC"
+}
