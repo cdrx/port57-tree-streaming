@@ -28,7 +28,7 @@ func change(api string, c string) bool {
 }
 
 func main() {
-	var api = "http://api.port57tree.com/change"
+	var api = "http://api/change"
 	slack, err := hanu.New(os.Args[1])
 
 	if err != nil {
